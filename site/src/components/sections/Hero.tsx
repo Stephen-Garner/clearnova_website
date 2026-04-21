@@ -142,10 +142,10 @@ export function Hero() {
           >
             De-risk your next
             <br />
-            building technology deployment
+            technology deployment
             <br />
             <span className="font-[family-name:var(--font-instrument-serif)] italic text-gradient-brand">
-              with absolute clarity.
+              with the absolute clarity.
             </span>
           </motion.h1>
 
