@@ -1,0 +1,66 @@
+:root {
+  /* Colors — Primary */
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #595959;
+  --color-neutral-300: #161616;
+  --color-neutral-400: #474747;
+  --color-neutral-500: #e2e2e2;
+  --color-neutral-600: #f6f6f6;
+  --color-neutral-700: #826c6c;
+  --color-neutral-800: #767676;
+  --color-neutral-900: #c1c1c1;
+
+  /* Colors — Backgrounds */
+  --color-bg: #ffffff;
+  --color-bg-1: #f6f6f6;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #474747;
+  --color-text-2: #ffffff;
+  --color-text-3: #595959;
+  --color-text-4: #161616;
+
+  /* Typography — Families */
+  --font-body: 'Times', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Arial', sans-serif;
+  --font-body: 'monospace', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-22: 22px;
+  --font-size-16: 16px;
+  --font-size-14: 14px;
+  --font-size-13.3333: 13.3333px;
+  --font-size-12: 12px;
+
+  /* Spacing */
+  --spacing-1: 1px;
+  --spacing-16: 16px;
+  --spacing-23: 23px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-193: 193px;
+
+  /* Border Radius */
+  --radius-xs: 2px;
+  --radius-md: 7px;
+  --radius-full: 48px;
+
+  /* Box Shadows */
+  --shadow-sm: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+  --shadow-sm: rgb(128, 128, 128) 0px 0px 5px 0px;
+  --shadow-sm: rgba(0, 0, 0, 0.3) 0px 2px 6px 0px;
+
+  /* Original Site Variables */
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

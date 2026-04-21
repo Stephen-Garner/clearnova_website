@@ -1,0 +1,517 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 323,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 18,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#595959",
+        "rgb": {
+          "r": 89,
+          "g": 89,
+          "b": 89,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 35
+        },
+        "count": 18,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#161616",
+        "rgb": {
+          "r": 22,
+          "g": 22,
+          "b": 22,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 9
+        },
+        "count": 16,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#474747",
+        "rgb": {
+          "r": 71,
+          "g": 71,
+          "b": 71,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 28
+        },
+        "count": 10,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e2e2e2",
+        "rgb": {
+          "r": 226,
+          "g": 226,
+          "b": 226,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 89
+        },
+        "count": 4,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#f6f6f6",
+        "rgb": {
+          "r": 246,
+          "g": 246,
+          "b": 246,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 96
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#826c6c",
+        "rgb": {
+          "r": 130,
+          "g": 108,
+          "b": 108,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 9,
+          "l": 47
+        },
+        "count": 2,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#767676",
+        "rgb": {
+          "r": 118,
+          "g": 118,
+          "b": 118,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 46
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#c1c1c1",
+        "rgb": {
+          "r": 193,
+          "g": 193,
+          "b": 193,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 76
+        },
+        "count": 1,
+        "contexts": [
+          "border"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 0
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "x-el x-el-section c1-1 c1-2 c1-3 c1-h c1-i c1-j c1-k c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 4117.609375
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "x-el x-el-section c1-1 c1-2 c1-3 c1-h c1-i c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4117.609375,
+        "w": 1280,
+        "h": 768
+      },
+      "heading": "Are you ready to de-risk your next building technology deployment and gain absolute clarity?",
+      "buttonCount": 1,
+      "cardCount": 0,
+      "className": "x-el x-el-section c1-1 c1-2 c1-3 c1-h c1-i c1-1p c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"
+    },
+    {
+      "role": "footer",
+      "tag": "div",
+      "bounds": {
+        "x": 0,
+        "y": 4885.609375,
+        "w": 1280,
+        "h": 157.796875
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "x-el x-el-div x-el c1-1 c1-2 c1-4f c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 4885.609375,
+        "w": 1280,
+        "h": 157.796875
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "x-el x-el-section c1-1 c1-2 c1-4f c1-h c1-i c1-b c1-c c1-l c1-m c1-d c1-e c1-f c1-g"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "input",
+      "structuralHash": "input",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(71, 71, 71)",
+            "padding": "23px 16px 7px 16px",
+            "borderRadius": "4px",
+            "border": "1px solid rgb(226, 226, 226)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 3
+        }
+      ]
+    },
+    {
+      "kind": "input",
+      "structuralHash": "textarea",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(71, 71, 71)",
+            "padding": "16px 16px 16px 16px",
+            "borderRadius": "4px",
+            "border": "1px solid rgb(226, 226, 226)",
+            "fontSize": "16px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "padding": "8px 40px 8px 40px",
+            "borderRadius": "48px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "14px",
+            "fontWeight": "700"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 244,
+        "usedBytes": 0,
+        "unusedBytes": 244,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 889,
+        "usedBytes": 761,
+        "unusedBytes": 128,
+        "unusedPercent": 14
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 184,
+        "usedBytes": 0,
+        "unusedBytes": 184,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 161,
+        "usedBytes": 0,
+        "unusedBytes": 161,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 41,
+        "usedBytes": 41,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 969,
+        "usedBytes": 0,
+        "unusedBytes": 969,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 1477,
+        "usedBytes": 1261,
+        "unusedBytes": 216,
+        "unusedPercent": 15
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 15483,
+        "usedBytes": 0,
+        "unusedBytes": 15483,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://img1.wsimg.com/blobby/go/font/LeagueSpartan/league-spartan.css",
+        "totalBytes": 330,
+        "usedBytes": 0,
+        "unusedBytes": 330,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 3949,
+        "usedBytes": 1201,
+        "unusedBytes": 2748,
+        "unusedPercent": 70
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 72,
+        "usedBytes": 72,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 4788,
+        "usedBytes": 4000,
+        "unusedBytes": 788,
+        "unusedPercent": 16
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 261,
+        "usedBytes": 221,
+        "unusedBytes": 40,
+        "unusedPercent": 15
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 262,
+        "usedBytes": 0,
+        "unusedBytes": 262,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Inter:wght@700;900&display=swap",
+        "totalBytes": 17160,
+        "usedBytes": 0,
+        "unusedBytes": 17160,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css",
+        "totalBytes": 89220,
+        "usedBytes": 0,
+        "unusedBytes": 89220,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 10737,
+        "usedBytes": 0,
+        "unusedBytes": 10737,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css",
+        "totalBytes": 89220,
+        "usedBytes": 735,
+        "unusedBytes": 88485,
+        "unusedPercent": 99
+      },
+      {
+        "url": "https://clearnova.com/",
+        "totalBytes": 10737,
+        "usedBytes": 8519,
+        "unusedBytes": 2218,
+        "unusedPercent": 21
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Inter:wght@700;900&display=swap",
+        "totalBytes": 17160,
+        "usedBytes": 0,
+        "unusedBytes": 17160,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfjspgUAAAAABsbjG9id6qXQKZkqb6_Hpce6ui_&co=aHR0cHM6Ly9jbGVhcm5vdmEuY29tOjQ0Mw..&hl=en&v=gTpTIWhbKpxADzTzkcabhXN4&size=invisible&anchor-ms=20000&execute-ms=30000&cb=uhqj5i7f0e7f",
+        "totalBytes": 16160,
+        "usedBytes": 0,
+        "unusedBytes": 16160,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/gTpTIWhbKpxADzTzkcabhXN4/styles__ltr.css",
+        "totalBytes": 83366,
+        "usedBytes": 3372,
+        "unusedBytes": 79994,
+        "unusedPercent": 96
+      }
+    ],
+    "totalBytes": 362870,
+    "usedBytes": 20183,
+    "unusedBytes": 342687,
+    "unusedPercent": 94,
+    "importantCount": 7,
+    "duplicates": 1800,
+    "vendorPrefixes": {
+      "webkit": 392,
+      "moz": 10,
+      "ms": 8,
+      "o": 0
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        5,
+        9
+      ],
+      "average": [
+        0,
+        1.81,
+        0.07
+      ],
+      "count": 5386
+    },
+    "issues": [
+      "7 !important rules",
+      "1800 duplicate declarations",
+      "94% unused CSS"
+    ]
+  }
+}

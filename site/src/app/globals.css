@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+/*
+  ClearNova brand system
+  Primary: teal → cyan gradient (from logo)
+  Surface: deep navy / near-black with aurora glow
+*/
+
+:root {
+  --background: #05080f;
+  --background-elev: #0a1220;
+  --foreground: #f5f7fa;
+  --muted: #a3aec2;
+  --muted-strong: #d4dbe8;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+
+  --brand-900: #083344;
+  --brand-800: #0d5f6b;
+  --brand-700: #0d7377;
+  --brand-600: #0f9ba1;
+  --brand-500: #14b8a6;
+  --brand-400: #2dd4bf;
+  --brand-300: #5eead4;
+  --brand-200: #99f6e4;
+  --brand-100: #ccfbf1;
+
+  --gradient-brand: linear-gradient(90deg, #0d7377 0%, #14b8a6 45%, #5eead4 100%);
+  --gradient-brand-soft: linear-gradient(135deg, rgba(13, 115, 119, 0.18) 0%, rgba(94, 234, 212, 0.1) 100%);
+  --glow-teal: 0 0 48px rgba(45, 212, 191, 0.35);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-elev: var(--background-elev);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-strong: var(--muted-strong);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --color-brand-900: var(--brand-900);
+  --color-brand-800: var(--brand-800);
+  --color-brand-700: var(--brand-700);
+  --color-brand-600: var(--brand-600);
+  --color-brand-500: var(--brand-500);
+  --color-brand-400: var(--brand-400);
+  --color-brand-300: var(--brand-300);
+  --color-brand-200: var(--brand-200);
+  --color-brand-100: var(--brand-100);
+
+  --font-sans: var(--font-montserrat);
+  --font-display: var(--font-instrument-serif);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), "Montserrat", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    background: rgba(45, 212, 191, 0.35);
+    color: #fff;
+  }
+}
+
+/* Aurora background — subtle radial gradients drifting behind content */
+.aurora {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+.aurora::before,
+.aurora::after {
+  content: "";
+  position: absolute;
+  width: 60vmax;
+  height: 60vmax;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.55;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+.aurora::before {
+  background: radial-gradient(circle at 30% 30%, #14b8a6, transparent 60%);
+  top: -20%;
+  left: -10%;
+  animation: aurora-drift-a 24s ease-in-out infinite alternate;
+}
+.aurora::after {
+  background: radial-gradient(circle at 70% 70%, #5eead4, transparent 60%);
+  bottom: -20%;
+  right: -10%;
+  animation: aurora-drift-b 32s ease-in-out infinite alternate;
+}
+@keyframes aurora-drift-a {
+  0% { transform: translate3d(-4%, -2%, 0) scale(1); }
+  100% { transform: translate3d(6%, 4%, 0) scale(1.08); }
+}
+@keyframes aurora-drift-b {
+  0% { transform: translate3d(4%, 2%, 0) scale(1); }
+  100% { transform: translate3d(-6%, -4%, 0) scale(1.12); }
+}
+
+/* Subtle grid overlay */
+.grid-overlay {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 75%);
+}
+
+/* Gradient text utility (keeps logo feel) */
+.text-gradient-brand {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Glass card */
+.glass {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015));
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+}
+
+/* Shine on hover for buttons */
+@keyframes shine {
+  0% { transform: translateX(-150%) skewX(-20deg); }
+  100% { transform: translateX(250%) skewX(-20deg); }
+}
+
+/* Marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Fade/slide on scroll - used via data attributes */
+@media (prefers-reduced-motion: reduce) {
+  .aurora::before,
+  .aurora::after {
+    animation: none;
+  }
+}

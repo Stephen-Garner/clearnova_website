@@ -1,0 +1,25 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Sentence case",
+  "headingLengthClass": "verbose",
+  "ctaVerbs": [
+    {
+      "value": "submit",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "submit",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [
+    "Are you ready to de-risk your next building technology deployment and gain absolute clarity?"
+  ],
+  "stats": {
+    "buttons": 1,
+    "headings": 1
+  }
+}
