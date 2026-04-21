@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
-import path from "node:path";
+import { resolve } from "node:path";
 
 const nextConfig: NextConfig = {
   turbopack: {
-    root: path.resolve(__dirname),
+    root: resolve(import.meta.dirname),
   },
 };
 

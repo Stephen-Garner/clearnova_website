@@ -86,10 +86,10 @@
 .aurora::after {
   content: "";
   position: absolute;
-  width: 60vmax;
-  height: 60vmax;
+  width: 50vmax;
+  height: 50vmax;
   border-radius: 50%;
-  filter: blur(120px);
+  filter: blur(80px);
   opacity: 0.55;
   mix-blend-mode: screen;
   will-change: transform;
