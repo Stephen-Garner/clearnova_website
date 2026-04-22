@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Logo />
             <p className="mt-6 max-w-sm text-base leading-relaxed text-muted">
-              De-risk your next building technology deployment.
+              De-risk your next technology deployment.
             </p>
             <p className="mt-3 text-lg font-[family-name:var(--font-instrument-serif)] italic text-muted-strong">
               Your Path to Innovation.
