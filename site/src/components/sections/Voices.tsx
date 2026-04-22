@@ -68,10 +68,10 @@ export function Voices() {
       title={
         <>
           What owners say after{" "}
-          <span className="text-gradient-brand font-[family-name:var(--font-instrument-serif)] italic inline-block pr-3">
+          <span className="text-gradient-brand font-[family-name:var(--font-instrument-serif)] italic inline-block overflow-visible pr-3">
             handoff
           </span>
-          .
+          <span className="-ml-2">.</span>
         </>
       }
       description="Real programs, real operators. The voices of the people who had to live in the buildings after commissioning."
