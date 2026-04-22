@@ -68,7 +68,7 @@ export function Voices() {
       title={
         <>
           What owners say after{" "}
-          <span className="text-gradient-brand font-[family-name:var(--font-instrument-serif)] italic">
+          <span className="text-gradient-brand font-[family-name:var(--font-instrument-serif)] italic pr-1">
             handoff
           </span>
           .
