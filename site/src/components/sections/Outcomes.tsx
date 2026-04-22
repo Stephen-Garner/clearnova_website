@@ -150,7 +150,7 @@ export function Outcomes() {
               <div
                 aria-hidden
                 className={cn(
-                  "absolute h-2 w-2 rounded-full bg-brand-300 shadow-[0_0_20px_#5eead4]",
+                  "absolute h-2 w-2 rounded-full bg-brand-500 shadow-[0_0_20px_#5eead4]",
                   c.accentPosition
                 )}
               />
@@ -161,7 +161,7 @@ export function Outcomes() {
             </div>
 
             <div className="flex flex-1 flex-col p-6 sm:p-7">
-              <div className="text-[10px] font-semibold tracking-[0.2em] text-brand-300 uppercase">
+              <div className="text-[10px] font-semibold tracking-[0.2em] text-brand-700 uppercase">
                 {c.tag}
               </div>
               <h3 className="mt-3 text-xl sm:text-2xl font-light leading-snug text-foreground">
@@ -174,13 +174,13 @@ export function Outcomes() {
                 {c.chips.map((chip) => (
                   <span
                     key={chip}
-                    className="inline-flex items-center rounded-full border border-border-strong bg-white/[0.03] px-3 py-1 text-[11px] font-medium tracking-wide text-muted-strong"
+                    className="inline-flex items-center rounded-full border border-border-strong bg-black/[0.03] px-3 py-1 text-[11px] font-medium tracking-wide text-muted-strong"
                   >
                     {chip}
                   </span>
                 ))}
                 <ArrowUpRight
-                  className="ml-auto h-4 w-4 text-brand-300 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                  className="ml-auto h-4 w-4 text-brand-700 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
                   aria-hidden
                 />
               </div>

@@ -40,7 +40,7 @@ const fadeUp = {
 };
 
 const inputCls =
-  "w-full rounded-xl border border-border-strong bg-white/[0.04] px-4 py-3 text-sm text-foreground placeholder:text-muted/60 transition-all duration-200 focus:border-brand-400 focus:bg-white/[0.06] focus:outline-none focus:ring-2 focus:ring-brand-400/40";
+  "w-full rounded-xl border border-border-strong bg-black/[0.04] px-4 py-3 text-sm text-foreground placeholder:text-muted/60 transition-all duration-200 focus:border-brand-400 focus:bg-black/[0.05] focus:outline-none focus:ring-2 focus:ring-brand-400/40";
 const labelCls =
   "mb-2 block text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-strong";
 const socialCls =
@@ -105,7 +105,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-20">
           {/* LEFT */}
           <motion.div {...mp} className="flex flex-col">
-            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-border-strong bg-white/[0.04] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-300">
+            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-border-strong bg-black/[0.04] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-700">
               <span className="h-1.5 w-1.5 rounded-full bg-brand-400 shadow-[0_0_12px_#2dd4bf]" />
               Get in Touch
             </div>
@@ -160,7 +160,7 @@ export default function Contact() {
               {submitted ? (
                 <div className="flex flex-col items-start">
                   <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-brand-500/15 ring-1 ring-brand-400/40">
-                    <Check aria-hidden className="h-5 w-5 text-brand-300" strokeWidth={2} />
+                    <Check aria-hidden className="h-5 w-5 text-brand-700" strokeWidth={2} />
                   </span>
                   <h3 className="mt-5 text-2xl font-light tracking-tight text-foreground sm:text-3xl">
                     Thanks{" "}
@@ -175,7 +175,7 @@ export default function Contact() {
                   <button
                     type="button"
                     onClick={reset}
-                    className="mt-6 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-brand-300 transition-colors hover:text-brand-200"
+                    className="mt-6 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-brand-700 transition-colors hover:text-brand-600"
                   >
                     Send another
                     <ArrowRight aria-hidden className="h-3.5 w-3.5" />

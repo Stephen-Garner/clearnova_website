@@ -28,7 +28,7 @@ const linkClass =
   "inline-flex items-center text-sm text-muted transition-colors duration-200 hover:text-foreground";
 
 const headingClass =
-  "mb-5 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-300";
+  "mb-5 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-700";
 
 export default function Footer() {
   return (

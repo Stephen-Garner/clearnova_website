@@ -94,10 +94,10 @@ export default function FAQ() {
                     <span
                       aria-hidden
                       className={cn(
-                        "relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border-strong bg-white/[0.03] text-brand-300 transition-all duration-300",
+                        "relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-border-strong bg-black/[0.03] text-brand-700 transition-all duration-300",
                         isOpen
                           ? "rotate-45 border-brand-400/50 bg-brand-500/10 shadow-[0_0_20px_rgba(45,212,191,0.25)]"
-                          : "group-hover:border-brand-400/40 group-hover:text-brand-200"
+                          : "group-hover:border-brand-400/40 group-hover:text-brand-600"
                       )}
                     >
                       <Plus className="h-4 w-4" strokeWidth={2} />
@@ -148,7 +148,7 @@ export default function FAQ() {
           Still curious?{" "}
           <Link
             href="#contact"
-            className="font-semibold text-brand-300 transition-colors hover:text-brand-200"
+            className="font-semibold text-brand-700 transition-colors hover:text-brand-600"
           >
             Start a conversation &rarr;
           </Link>

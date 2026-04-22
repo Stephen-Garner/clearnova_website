@@ -63,7 +63,7 @@ export function Navbar() {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-500",
         scrolled
-          ? "backdrop-blur-xl bg-background/70 border-b border-white/5"
+          ? "backdrop-blur-xl bg-background/70 border-b border-black/5"
           : "bg-transparent border-b border-transparent"
       )}
     >
@@ -90,7 +90,7 @@ export function Navbar() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-foreground transition-colors hover:bg-white/10"
+          className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border border-black/10 bg-black/5 text-foreground transition-colors hover:bg-black/10"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>

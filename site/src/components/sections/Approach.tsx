@@ -117,7 +117,7 @@ export default function Approach() {
                 <span className="absolute inset-0 rounded-full bg-brand-500/20 blur-xl" />
                 <span className="absolute inset-2 rounded-full border border-brand-400/40 bg-background" />
                 <span className="absolute inset-[14px] rounded-full border border-brand-400/60 bg-[radial-gradient(circle_at_30%_25%,rgba(94,234,212,0.35),transparent_60%)] shadow-[0_0_24px_rgba(45,212,191,0.45)]" />
-                <span className="relative font-[family-name:var(--font-instrument-serif)] text-2xl italic text-brand-300">
+                <span className="relative font-[family-name:var(--font-instrument-serif)] text-2xl italic text-brand-700">
                   {phase.number}
                 </span>
               </motion.div>
@@ -170,7 +170,7 @@ export default function Approach() {
                 <span className="absolute inset-0 rounded-full bg-brand-500/20 blur-lg" />
                 <span className="absolute inset-1 rounded-full border border-brand-400/40 bg-background" />
                 <span className="absolute inset-[6px] rounded-full border border-brand-400/60 bg-[radial-gradient(circle_at_30%_25%,rgba(94,234,212,0.35),transparent_60%)] shadow-[0_0_16px_rgba(45,212,191,0.45)]" />
-                <span className="relative font-[family-name:var(--font-instrument-serif)] text-base italic text-brand-300">
+                <span className="relative font-[family-name:var(--font-instrument-serif)] text-base italic text-brand-700">
                   {phase.number}
                 </span>
               </motion.div>
@@ -206,7 +206,7 @@ export default function Approach() {
         {stats.map((stat) => (
           <span
             key={stat}
-            className="inline-flex items-center gap-2 rounded-full border border-border-strong bg-white/[0.03] px-4 py-2 text-xs font-medium tracking-wide text-muted-strong"
+            className="inline-flex items-center gap-2 rounded-full border border-border-strong bg-black/[0.03] px-4 py-2 text-xs font-medium tracking-wide text-muted-strong"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-brand-400 shadow-[0_0_10px_#2dd4bf]" />
             {stat}

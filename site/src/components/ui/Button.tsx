@@ -12,9 +12,9 @@ const variants: Record<Variant, string> = {
   primary:
     "text-[#05080f] bg-[linear-gradient(90deg,#5eead4_0%,#14b8a6_50%,#0d7377_100%)] hover:shadow-[0_0_40px_rgba(45,212,191,0.45)] hover:-translate-y-0.5",
   secondary:
-    "text-foreground border border-border-strong bg-white/5 hover:bg-white/10 hover:border-brand-400/50",
+    "text-foreground border border-border-strong bg-black/5 hover:bg-black/10 hover:border-brand-400/50",
   ghost:
-    "text-muted-strong hover:text-foreground hover:bg-white/5",
+    "text-muted-strong hover:text-foreground hover:bg-black/5",
 };
 
 const sizes: Record<Size, string> = {

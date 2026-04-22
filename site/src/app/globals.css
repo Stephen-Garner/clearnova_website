@@ -7,13 +7,13 @@
 */
 
 :root {
-  --background: #05080f;
-  --background-elev: #0a1220;
-  --foreground: #f5f7fa;
-  --muted: #a3aec2;
-  --muted-strong: #d4dbe8;
-  --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.14);
+  --background: #f8fafb;
+  --background-elev: #eef2f5;
+  --foreground: #0f1724;
+  --muted: #5a6578;
+  --muted-strong: #2d3748;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.14);
 
   --brand-900: #083344;
   --brand-800: #0d5f6b;
@@ -70,7 +70,7 @@
   }
   ::selection {
     background: rgba(45, 212, 191, 0.35);
-    color: #fff;
+    color: #0f1724;
   }
 }
 
@@ -90,8 +90,8 @@
   height: 50vmax;
   border-radius: 50%;
   filter: blur(80px);
-  opacity: 0.55;
-  mix-blend-mode: screen;
+  opacity: 0.25;
+  mix-blend-mode: multiply;
   will-change: transform;
 }
 .aurora::before {
@@ -118,8 +118,8 @@
 /* Subtle grid overlay */
 .grid-overlay {
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse at center, black 40%, transparent 75%);
 }
@@ -134,9 +134,10 @@
 
 /* Glass card */
 .glass {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
   border: 1px solid var(--border);
   backdrop-filter: blur(12px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 /* Shine on hover for buttons */

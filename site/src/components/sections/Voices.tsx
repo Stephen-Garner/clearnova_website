@@ -94,7 +94,7 @@ export function Voices() {
           {marqueeItems.map((name, idx) => (
             <span
               key={`${name}-${idx}`}
-              className="relative inline-flex items-center rounded-full border border-border-strong bg-white/[0.03] px-5 py-2.5 text-[11px] font-semibold tracking-[0.22em] text-muted-strong uppercase whitespace-nowrap"
+              className="relative inline-flex items-center rounded-full border border-border-strong bg-black/[0.03] px-5 py-2.5 text-[11px] font-semibold tracking-[0.22em] text-muted-strong uppercase whitespace-nowrap"
             >
               {name}
               <span

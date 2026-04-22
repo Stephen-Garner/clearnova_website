@@ -83,7 +83,7 @@ export default function About() {
           >
             <motion.div
               variants={prefersReducedMotion ? undefined : itemVariants}
-              className="inline-flex w-fit items-center gap-2 rounded-full border border-border-strong bg-white/[0.04] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-300"
+              className="inline-flex w-fit items-center gap-2 rounded-full border border-border-strong bg-black/[0.04] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-700"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-brand-400 shadow-[0_0_12px_#2dd4bf]" />
               ABOUT CLEARNOVA
@@ -129,7 +129,7 @@ export default function About() {
               </Button>
               <Link
                 href="#manifesto"
-                className="text-sm font-semibold tracking-[0.02em] text-muted-strong transition-colors hover:text-brand-300"
+                className="text-sm font-semibold tracking-[0.02em] text-muted-strong transition-colors hover:text-brand-700"
               >
                 Read the manifesto &rarr;
               </Link>

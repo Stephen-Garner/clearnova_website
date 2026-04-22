@@ -131,7 +131,7 @@ export default function Services() {
 
               <Link
                 href={service.href}
-                className="mt-6 inline-flex items-center gap-1.5 text-xs font-semibold tracking-[0.14em] text-brand-300 uppercase transition-colors hover:text-brand-200"
+                className="mt-6 inline-flex items-center gap-1.5 text-xs font-semibold tracking-[0.14em] text-brand-700 uppercase transition-colors hover:text-brand-600"
               >
                 Learn more
                 <ArrowRight
