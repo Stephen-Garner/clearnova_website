@@ -89,8 +89,8 @@ function NovaBurst({ reducedMotion }: { reducedMotion: boolean }) {
               cx="280"
               cy="280"
               r="180"
-              stroke="#5eead4"
-              strokeOpacity="0.6"
+              stroke="#14b8a6"
+              strokeOpacity="0.7"
               strokeDasharray="2 6"
               fill="none"
               animate={reducedMotion ? undefined : { rotate: -360 }}
