@@ -90,14 +90,14 @@ function NovaBurst({ reducedMotion }: { reducedMotion: boolean }) {
               cy="280"
               r="180"
               stroke="#5eead4"
-              strokeOpacity="0.25"
+              strokeOpacity="0.6"
               strokeDasharray="2 6"
               fill="none"
               animate={reducedMotion ? undefined : { rotate: -360 }}
               transition={{ duration: 120, ease: "linear", repeat: Infinity }}
               style={{ transformOrigin: "280px 280px" }}
             />
-            <circle cx="280" cy="280" r="110" stroke="#14b8a6" strokeOpacity="0.35" fill="none" />
+            <circle cx="280" cy="280" r="110" stroke="#14b8a6" strokeOpacity="0.7" fill="none" />
             <circle cx="280" cy="280" r="6" fill="#5eead4" />
           </svg>
         </motion.div>
